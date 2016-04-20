@@ -1,6 +1,6 @@
 <?php
 
-session_start();
+/*session_start();
 if((isset($_SESSION['email']))&&($_SESSION['cat']=="agent"))
 {
     header ('Location:agntoptions.php');
@@ -16,7 +16,7 @@ $dbname='salesmanagement';
 
 $link=mysql_connect($host,$user,$pass);
 
-$con=mysql_select_db($dbname,$link);
+$con=mysql_select_db($dbname,$link);*/
 
 if(isset($_POST['email']))
 
